@@ -26,8 +26,9 @@ public class Flip : MonoBehaviour
         {
             rt.changeSpeed(flipX ? rt.getSpeed() : -rt.getSpeed());
         }
+        
+        rt.changeSpeed(flipX ? -rt.getSpeed() * -1 : -1); //fix this
         */
-        rt.changeSpeed(flipX ? 1 : -1); //fix this
 
         sprite.flipY = flipX;  //this is all i need to flip any sprtie thats not rotating i.e saws
 
