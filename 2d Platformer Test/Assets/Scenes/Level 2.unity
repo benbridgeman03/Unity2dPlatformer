@@ -10900,6 +10900,10 @@ PrefabInstance:
       value: Saw
       objectReference: {fileID: 0}
     - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
       propertyPath: waypoints.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -11609,6 +11613,10 @@ PrefabInstance:
       value: Saw (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 0}
@@ -11923,6 +11931,10 @@ PrefabInstance:
     - target: {fileID: 5382787434128643703, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
       propertyPath: m_Name
       value: Saw (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
       propertyPath: waypoints.Array.data[0]
@@ -44787,6 +44799,10 @@ PrefabInstance:
       value: Saw (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 0}
@@ -45052,6 +45068,10 @@ PrefabInstance:
       value: Saw
       objectReference: {fileID: 0}
     - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 0}
@@ -45270,6 +45290,10 @@ PrefabInstance:
     - target: {fileID: 5382787434128643703, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
       propertyPath: m_Name
       value: Saw
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7301601079646988697, guid: 3f9b75f4a44ccdd4ea64166e260bcf6e, type: 3}
       propertyPath: waypoints.Array.size
