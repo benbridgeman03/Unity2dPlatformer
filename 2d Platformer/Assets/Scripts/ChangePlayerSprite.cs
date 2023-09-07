@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangePlayerSprite : MonoBehaviour
+public class Change : MonoBehaviour
 {
+    [SerializeField] public AnimatorOverrideController blueAnim;
 
-    private SpriteRenderer sr;
-    [SerializeField] private Sprite newSprite;
-    // Start is called before the first frame update
-    void Start()
+    public void BlueSkin()
     {
-        sr = GetComponent<SpriteRenderer>();
-        sr.sprite = newSprite;
+        GetComponent<Animator>().runtimeAnimatorController = blueAnim as RuntimeAnimatorController;
     }
-
-
 }
