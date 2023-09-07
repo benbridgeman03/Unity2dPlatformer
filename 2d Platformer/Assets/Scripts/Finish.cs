@@ -7,17 +7,25 @@ public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
     private Animator anim;
+    private ItemCollector itemCollector;
 
     private bool finished;
-    void Start()
+    private int totalMelons;
+    private bool allMelons;
+    private void Start()
     {
         finishSound = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
+        itemCollector = FindObjectOfType<ItemCollector>();
+
+        totalMelons = GameObject.FindGameObjectsWithTag("Melon").Length;
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player" && !finished)
+        int melonCount = itemCollector.melonCount;
+        if (collision.gameObject.name == "Player" && melonCount == totalMelons && !finished)
         {
             finishSound.Play();
             finished = true;
