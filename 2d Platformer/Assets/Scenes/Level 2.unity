@@ -45488,7 +45488,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13edd046d4e23d04695a97f4daa57715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anims: []
+  anims:
+  - {fileID: 22100000, guid: 90451f2fccd47234ea8ac0405eeb3e2b, type: 2}
+  - {fileID: 22100000, guid: 8d616a7635aae9441ae08e766134f975, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

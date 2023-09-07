@@ -6,7 +6,7 @@ public class Change : MonoBehaviour
 {
 
     [SerializeField] private AnimatorOverrideController[] anims;
-    private static int animPointer;
+    private static int animPointer; //resets between level 1 and 2 idk why
     
     private void Start()
     {
