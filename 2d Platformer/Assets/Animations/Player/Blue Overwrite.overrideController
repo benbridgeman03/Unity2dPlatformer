@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Animator Override Controller
+  m_Name: Blue Overwrite
   m_Controller: {fileID: 9100000, guid: 46e7f28a86af587459a2c9e5d3f5e574, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 278a5ff63944135408153b363689cba6, type: 2}

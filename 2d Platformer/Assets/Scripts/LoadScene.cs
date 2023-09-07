@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class startMenu : MonoBehaviour
 {
     [SerializeField]private string scene;
-    public void StartGame()
+    public void LoadScene()
     {
         Application.LoadLevel(scene);
     }

@@ -4,10 +4,33 @@ using UnityEngine;
 
 public class Change : MonoBehaviour
 {
-    [SerializeField] public AnimatorOverrideController blueAnim;
 
-    public void BlueSkin()
+    [SerializeField] private AnimatorOverrideController[] anims;
+    private static int animPointer;
+    
+    private void Start()
     {
-        GetComponent<Animator>().runtimeAnimatorController = blueAnim as RuntimeAnimatorController;
+        setSkin();
     }
+
+    public void Update()
+    {
+        setSkin();
+    }
+
+    public void AnimPointer0()
+    {
+        animPointer = 0;
+    }
+
+    public void AnimPointer1()
+    {
+        animPointer = 1;
+    }
+
+    public void setSkin()
+    {
+        GetComponent<Animator>().runtimeAnimatorController = anims[animPointer] as RuntimeAnimatorController;
+    }
+
 }
