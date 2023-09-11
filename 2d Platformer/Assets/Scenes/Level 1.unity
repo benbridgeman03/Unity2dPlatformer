@@ -579,6 +579,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6543651789935211956, guid: e747ec9c7db5d654d90a430f98e0fe31, type: 3}
   m_PrefabInstance: {fileID: 909417734}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &342068288 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1247365521304477017, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
+  m_PrefabInstance: {fileID: 5800275546628511307}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &391751769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42292,6 +42303,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6936657922223142706, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 767.4
+      objectReference: {fileID: 0}
     - target: {fileID: 7072781211612351496, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -42582,7 +42597,7 @@ PrefabInstance:
     - target: {fileID: 2716915632405778200, guid: a9e869cbcd43bd54b9fd06e225fa7858, type: 3}
       propertyPath: melonsText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 342068288}
     - target: {fileID: 5836114781497573663, guid: a9e869cbcd43bd54b9fd06e225fa7858, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.53

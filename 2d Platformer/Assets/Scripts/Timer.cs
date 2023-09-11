@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -38,7 +39,26 @@ public class Timer : MonoBehaviour
 
     public void EndTimer()
     {
+        var currentScene = SceneManager.GetActiveScene();
+        var currentSceneName = currentScene.name;
         endTime = timePlayingStr;
+
+        double mili = timePlaying.TotalMilliseconds;
+
+        if(!PlayerPrefs.HasKey(currentSceneName+"i"))
+        {
+            PlayerPrefs.SetInt(currentSceneName+"i", (int)mili);
+            PlayerPrefs.SetString(currentSceneName, timePlayingStr);
+        }
+        else
+        {
+            if(PlayerPrefs.GetInt(currentSceneName+"i") > (int)mili)
+            {
+                PlayerPrefs.SetString(currentSceneName, timePlayingStr);
+                PlayerPrefs.SetInt(currentSceneName + "i", (int)mili);
+            }
+        }
+
         timerGoing = false;
     }
 
@@ -46,7 +66,6 @@ public class Timer : MonoBehaviour
     {
         while (timerGoing)
         {
-            Debug.Log(timePlaying);
             elaspedTime += Time.deltaTime;
             timePlaying = TimeSpan.FromSeconds(elaspedTime);
             timePlayingStr = "Time: " + timePlaying.ToString("mm':'ss'.'ff");
