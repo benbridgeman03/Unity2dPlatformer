@@ -29,6 +29,7 @@ public class Finish : MonoBehaviour
         {
             finishSound.Play();
             finished = true;
+            Timer.instance.EndTimer();
             anim.SetTrigger("Finish");
 
         }
