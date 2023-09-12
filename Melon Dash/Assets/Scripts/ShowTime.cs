@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class ShowTime : MonoBehaviour
 {
     [SerializeField] private Text bestTimeText;
+
+
     void Start()
     {
         var currentScene = SceneManager.GetActiveScene();
