@@ -47218,6 +47218,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1308538707329636194, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 403.9308
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308538707329636194, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 28.4667
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308538707329636194, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 217.5654
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308538707329636194, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.1334
+      objectReference: {fileID: 0}
     - target: {fileID: 7072781211612351496, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -47429,6 +47445,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c480851659549fc48b228dcb71488752, type: 3}
+--- !u!114 &1921207704 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1247365521304477017, guid: 195ab590125dc014c8a2d27c9a184692, type: 3}
+  m_PrefabInstance: {fileID: 1788191875}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1994062754
 GameObject:
   m_ObjectHideFlags: 0
@@ -47729,7 +47756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1682941472646050099, guid: c480851659549fc48b228dcb71488752, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.01
+      value: -9.6
       objectReference: {fileID: 0}
     - target: {fileID: 1682941472646050099, guid: c480851659549fc48b228dcb71488752, type: 3}
       propertyPath: m_LocalPosition.z
@@ -47896,7 +47923,7 @@ PrefabInstance:
     - target: {fileID: 2716915632405778200, guid: a9e869cbcd43bd54b9fd06e225fa7858, type: 3}
       propertyPath: melonsText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1921207704}
     - target: {fileID: 5836114781497573663, guid: a9e869cbcd43bd54b9fd06e225fa7858, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.63

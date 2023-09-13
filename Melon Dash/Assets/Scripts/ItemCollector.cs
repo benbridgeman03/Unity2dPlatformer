@@ -7,7 +7,17 @@ public class ItemCollector : MonoBehaviour
 {
     [SerializeField] private Text melonsText;
     [SerializeField] private AudioSource collectionSound;
+
+    private int totalMelons;
+
     public int melonCount;
+
+    private void Start()
+    {
+        totalMelons = GameObject.FindGameObjectsWithTag("Melon").Length;
+
+        melonsText.text = "Melons: 0" + " / " + totalMelons;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,7 +26,7 @@ public class ItemCollector : MonoBehaviour
         {
             Destroy(collision.gameObject);
             melonCount++;
-            melonsText.text = "Melons: " + melonCount;
+            melonsText.text = "Melons: " + melonCount + " / " + totalMelons;
             collectionSound.Play();
         }
     }

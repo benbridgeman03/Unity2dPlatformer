@@ -14,6 +14,14 @@ public class ShowTime : MonoBehaviour
         var currentScene = SceneManager.GetActiveScene();
         var currentSceneName = currentScene.name;
 
-        bestTimeText.text = "Best " + PlayerPrefs.GetString(currentSceneName);
+        if (!PlayerPrefs.HasKey(currentSceneName))
+        {
+            bestTimeText.text = "";
+        }
+        else
+        {
+            bestTimeText.text = "Best " + PlayerPrefs.GetString(currentSceneName);
+        }
+        
     }
 }
